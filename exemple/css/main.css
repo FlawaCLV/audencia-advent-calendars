@@ -16,3 +16,33 @@ body {
 	-ms-animation: snow 10s linear infinite;
 	animation: snow 10s linear infinite;
 }
+
+#calendrier {
+  position: absolute;
+  z-index: 10;
+  top: 20%;
+  left: calc(50% - (512px / 2));
+  width: 512px;
+  height: 512px;
+  background: url('../images/christmas-tree.png') center no-repeat;
+  background-size: auto 100%;
+}
+
+.jour {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 80px;
+  height: 80px;
+  font-size: 30px;
+  text-shadow: 1px 1px 4px rgba(0,0,0,.5);
+  text-decoration: none;
+  background: url('../images/star.png') center no-repeat;
+  background-size: auto 90%;
+  border-radius: 50%;
+  color: white;
+}
+
+#jour1 { top: 130px; left: 220px; }
+#jour2 { top: 195px; left: 125px; }
+#jour3 { top: 195px; left: 320px; }
