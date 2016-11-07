@@ -1,8 +1,14 @@
 $(document).ready(function() {
-  $('.jour').on('mouseenter', function(e) {
+  $('.jour').on('click', function(e) {
     e.preventDefault();
     e.stopPropagation();
 
-    console.log('clicked on ' + $(e.target).attr('href'));
+    console.log('clicked on ' + $(e.target).attr('id'));
+
+    $('#popup').addClass('active');
   });
+
+  $('#popup-close, #popup-backdrop').on('click', function() {
+    $('#popup').removeClass('active');
+  })
 });
