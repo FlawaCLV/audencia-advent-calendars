@@ -1,0 +1,24 @@
+body {
+  color:black;
+  font-family: 'Pacifico', cursive;
+  font-size: 30px;
+  position: center bottom;
+}
+
+
+#titre {
+  text-align: center;
+  z-index: 14;
+}
+
+
+#calendrier {
+  position: absolute;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url('sapin.png') center no-repeat;
+  background-size: auto 100%;
+}
