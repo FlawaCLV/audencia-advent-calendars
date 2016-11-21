@@ -1,0 +1,184 @@
+body {
+
+  background-color: lightBlue;
+  /*background-image: url('../images/sapinsansboules.png');
+  background-repeat: no-repeat;
+  background-position: center top;
+  width: 100%;
+  height: 100%;*/
+
+
+}
+
+#snow {
+  position:absolute;
+  z-index: 0;
+	left: 0;
+	top: 0;
+	width: 100%;
+  height: 100%;
+  background-image: url('../images/snowflake-1.png'), url('../images/snowflake-2.png'), url('../images/snowflake-3.png');
+  -webkit-animation: snow 10s linear infinite;
+	-moz-animation: snow 10s linear infinite;
+	-ms-animation: snow 10s linear infinite;
+	animation: snow 10s linear infinite;
+}
+
+
+
+
+#calendrier {
+  position:absolute;
+  z-index: 10;
+	width: 100%;
+  height: 100%;
+  background-image: url('../images/sapinsansboules.png');
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: auto 100%;
+
+}
+
+/*#monbeausapin {
+  position:inherit;
+  z-index: 0;
+  width: 1024px;
+  height: 768px;
+  background-position:center;
+  background-repeat: no-repeat;
+}
+
+.sapin {
+  position:absolute;
+  top: 0;
+  left: 0;
+  width: 1024px;
+  height: 768px;
+  background: url('../images/sapinsansboules.png');
+  background-position:center;
+  background-repeat: no-repeat;
+
+}*/
+
+
+.boule {
+  position:absolute;
+  top: 0;
+  left: 0;
+  width: 100px;
+  height: 100px;
+  font-size: 50px;
+  font-weight: bold;
+  text-decoration: none;
+  background: url('../images/bouautre.png') center no-repeat;
+  background-size: auto 90%;
+  border-radius: 50%;
+  color: white;
+}
+
+
+#jour1 {
+  top: 200px;
+  left: 500px;
+
+}
+#jour2 {
+  top: 200px;
+  left: 700px;
+}
+#jour3 {
+  top: 400;
+  left: 800px;
+}
+#jour4 {
+  top: 200;
+  left: 700px;
+}
+#jour4 {
+  top: 200;
+  left: 700px;
+}
+#jour5 {
+  top: 200;
+  left: 700px;
+}
+#jour6 {
+  top: 200;
+  left: 700px;
+}
+#jour7 {
+  top: 200;
+  left: 700px;
+}
+#jour8 {
+  top: 200;
+  left: 700px;
+}
+#jour9 {
+  top: 200;
+  left: 700px;
+}
+#jour10 {
+  top: 200;
+  left: 700px;
+}
+#jour11 {
+  top: 200;
+  left: 700px;
+}
+#jour12 {
+  top: 200;
+  left: 700px;
+}
+#jour13 {
+  top: 200;
+  left: 700px;
+}
+#jour14 {
+  top: 200;
+  left: 700px;
+}
+#jour15 {
+  top: 200;
+  left: 700px;
+}
+#jour16 {
+  top: 200;
+  left: 700px;
+}
+#jour17 {
+  top: 200;
+  left: 700px;
+}
+#jour18 {
+  top: 200;
+  left: 700px;
+}
+#jour19 {
+  top: 200;
+  left: 700px;
+}
+#jour20 {
+  top: 200;
+  left: 700px;
+}
+#jour21 {
+  top: 200;
+  left: 700px;
+}
+#jour22 {
+  top: 200;
+  left: 700px;
+}
+#jour23 {
+  top: 200;
+  left: 700px;
+}
+#jour24 {
+  top: -8px;
+  left: 419px;
+}
+#jour25 {
+  top: 0px;
+  left: 462px;
+}

@@ -1,0 +1,114 @@
+.flex {
+  display: flex;
+}
+
+.flex.flex--column {
+  flex-direction: column;
+}
+
+.flex,
+.flex.flex--start-stretch {
+  justify-content: flex-start;
+  align-content: stretch;
+  align-items: stretch;
+}
+
+.flex.flex--start,
+.flex.flex--start-start,
+.flex.flex--start-center,
+.flex.flex--start-end,
+.flex.flex--start-stretch {
+  justify-content: flex-start;
+}
+
+.flex.flex--center,
+.flex.flex--center-start,
+.flex.flex--center-center,
+.flex.flex--center-end,
+.flex.flex--center-stretch {
+  justify-content: center;
+}
+
+.flex.flex--end,
+.flex.flex--end-start,
+.flex.flex--end-center,
+.flex.flex--end-end,
+.flex.flex--end-stretch {
+  justify-content: flex-end;
+}
+
+.flex.flex--space-around,
+.flex.flex--space-around-center,
+.flex.flex--space-around-start,
+.flex.flex--space-around-end,
+.flex.flex--space-around-stretch {
+  justify-content: space-around;
+}
+
+.flex.flex--space-between,
+.flex.flex--space-between-center,
+.flex.flex--space-between-start,
+.flex.flex--space-between-end,
+.flex.flex--space-between-stretch {
+  justify-content: space-between;
+}
+
+.flex.flex--start-start,
+.flex.flex--center-start,
+.flex.flex--end-start,
+.flex.flex--space-between-start,
+.flex.flex--space-around-start {
+  align-items: flex-start;
+  align-content: flex-start;
+}
+
+.flex.flex--start-center,
+.flex.flex--center-center,
+.flex.flex--end-center,
+.flex.flex--space-between-center,
+.flex.flex--space-around-center {
+  align-items: center;
+  align-content: center;
+}
+
+.flex.flex--start-center > *,
+.flex.flex--center-center > *,
+.flex.flex--end-center > *,
+.flex.flex--space-between-center > *,
+.flex.flex--space-around-center > * {
+  box-sizing: border-box;
+}
+
+.flex.flex--start-end,
+.flex.flex--center-end,
+.flex.flex--end-end,
+.flex.flex--space-between-end,
+.flex.flex--space-around-end {
+  align-items: flex-end;
+  align-content: flex-end;
+}
+
+.flex.flex--start-stretch,
+.flex.flex--center-stretch,
+.flex.flex--end-stretch,
+.flex.flex--space-between-stretch,
+.flex.flex--space-around-stretch {
+  align-items: stretch;
+  align-content: stretch;
+}
+
+[flex="1"] {
+  flex: 1;
+}
+
+[flex="50"] {
+  flex: 50%;
+}
+
+[flex="33"] {
+  flex: 33%;
+}
+
+[flex="25"] {
+  flex: 25%;
+}

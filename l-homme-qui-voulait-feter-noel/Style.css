@@ -1,0 +1,46 @@
+body {}
+h1 {
+  font-family: 'Sacramento', serif;
+  text-align: center;
+  font-size: 100px;
+  color: #445464;
+}
+figure {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  background-image: url('/Users/Coline/Pictures/element_graphique_3.png');
+  background-size: cover;
+}
+#ardoise {
+  position: relative;
+  margin: 70px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,.5);
+  background-color: #445464;
+}
+.jour {
+  display: flex;
+  width: 100px;
+  height: 100px;
+  font-size: 50px;
+  font-weight: bold;
+  font-family: 'Grand Hotel', serif;
+  text-decoration: none;
+  border: 2px solid white;
+  border-radius: 50%;
+  color: white;
+}
+#jour24 {
+  width: 300px;
+  height: 300px;
+}
+#jour1,#jour7, #jour11, #jour15, #jour12, #jour19, #jour22 {
+  width: 200px;
+  height: 200px;
+}
+#jour3, #jour5, #jour9, #jour14, #jour17, #jour20 {
+  width: 145px;
+  height: 145px;
+}
