@@ -31,8 +31,6 @@ body {
 
 .jour {
   position: absolute;
-  top: 0;
-  left: 0;
   width: 80px;
   height: 80px;
   font-size: 30px;
@@ -44,6 +42,27 @@ body {
   color: white;
 }
 
-#jour1 { top: 130px; left: 220px; }
-#jour2 { top: 195px; left: 125px; }
-#jour3 { top: 195px; left: 320px; }
+#jour1 { bottom: 0; left: 0; }
+#jour2 { bottom: -10px; left: 80px; }
+#jour3 { bottom: -20px; left: 160px; }
+#jour4 { bottom: -20px; left: 240px; }
+#jour5 { bottom: -15px; left: 326px; }
+#jour6 { bottom: 0; left: 410px; }
+#jour7 { bottom: 60px; left: 45px; }
+#jour8 { bottom: 50px; left: 125px; }
+#jour9 { bottom: 40px; left: 205px; }
+#jour10 { bottom: 45px; left: 285px; }
+#jour11 { bottom: 55px; left: 365px; }
+#jour12 { bottom: 120px; left: 85px; }
+#jour13 { bottom: 110px; left: 165px; }
+#jour14 { bottom: 110px; left: 245px; }
+#jour15 { bottom: 115px; left: 325px; }
+#jour16 { bottom: 180px; left: 125px; }
+#jour17 { bottom: 170px; left: 205px; }
+#jour18 { bottom: 180px; left: 285px; }
+#jour19 { bottom: 245px; left: 125px; }
+#jour20 { bottom: 245px; left: 205px; }
+#jour21 { bottom: 245px; left: 285px; }
+#jour22 { bottom: 310px; left: 163px; }
+#jour23 { bottom: 310px; left: 240px; }
+#jour24 { top: 18px; left: 216px; }

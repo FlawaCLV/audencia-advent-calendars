@@ -10,5 +10,9 @@ $(document).ready(function() {
 
   $('#popup-close, #popup-backdrop').on('click', function() {
     $('#popup').removeClass('active');
-  })
+  });
+
+  $('.jour').each(function() {
+    $(this).addClass(getCSSClass($(this).attr('data-jour')));
+  });
 });
