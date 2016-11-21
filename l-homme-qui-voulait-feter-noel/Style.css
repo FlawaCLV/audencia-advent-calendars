@@ -1,4 +1,6 @@
-body {}
+body {
+  background-color: #BEBCBC;
+}
 h1 {
   font-family: 'Sacramento', serif;
   text-align: center;
@@ -9,7 +11,7 @@ figure {
   position: relative;
   width: 200px;
   height: 200px;
-  background-image: url('/Users/Coline/Pictures/element_graphique_3.png');
+  background-image: url('element_graphique_3.png');
   background-size: cover;
 }
 #ardoise {
@@ -28,9 +30,15 @@ figure {
   font-weight: bold;
   font-family: 'Grand Hotel', serif;
   text-decoration: none;
-  border: 2px solid white;
+  /*border: 2px solid white;*/
+  background: url('couronne.jpg') center center no-repeat;
+  background-size: 100% 100%;
   border-radius: 50%;
-  color: white;
+  /*color: white;*/
+  color: black;
+}
+.jour-passe {
+  background-image: url('couronne-passe.png');
 }
 #jour24 {
   width: 300px;

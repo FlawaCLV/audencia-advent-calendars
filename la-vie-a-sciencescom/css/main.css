@@ -1,15 +1,12 @@
 body {
-
+  margin: 0;
   background-color: lightBlue;
   /*background-image: url('../images/sapinsansboules.png');
   background-repeat: no-repeat;
   background-position: center top;
   width: 100%;
   height: 100%;*/
-
-
 }
-
 #snow {
   position:absolute;
   z-index: 0;
@@ -23,44 +20,19 @@ body {
 	-ms-animation: snow 10s linear infinite;
 	animation: snow 10s linear infinite;
 }
-
-
-
-
 #calendrier {
   position:absolute;
   z-index: 10;
 	width: 100%;
   height: 100%;
-  background-image: url('../images/sapinsansboules.png');
-  background-repeat: no-repeat;
-  background-position: center top;
-  background-size: auto 100%;
-
 }
-
-/*#monbeausapin {
-  position:inherit;
-  z-index: 0;
+#jours {
+  position: relative;
   width: 1024px;
   height: 768px;
-  background-position:center;
-  background-repeat: no-repeat;
+  background: url('../images/sapinsansboules.png') center center no-repeat;
+  background-size: 100% 100%;
 }
-
-.sapin {
-  position:absolute;
-  top: 0;
-  left: 0;
-  width: 1024px;
-  height: 768px;
-  background: url('../images/sapinsansboules.png');
-  background-position:center;
-  background-repeat: no-repeat;
-
-}*/
-
-
 .boule {
   position:absolute;
   top: 0;
@@ -75,12 +47,9 @@ body {
   border-radius: 50%;
   color: white;
 }
-
-
 #jour1 {
   top: 200px;
   left: 500px;
-
 }
 #jour2 {
   top: 200px;
@@ -89,10 +58,6 @@ body {
 #jour3 {
   top: 400;
   left: 800px;
-}
-#jour4 {
-  top: 200;
-  left: 700px;
 }
 #jour4 {
   top: 200;
