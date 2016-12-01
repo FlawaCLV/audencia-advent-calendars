@@ -4,16 +4,9 @@ $(document).ready(function() {
   });
 
   $('.jour').on('click', function(e) {
-    e.preventDefault();
     e.stopPropagation();
 
     if ($(this).hasClass('jour-futur'))
-      return false;
-
-    $('#popup').addClass('active');
-  });
-
-  $('#popup-close, #popup-backdrop').on('click', function() {
-    $('#popup').removeClass('active');
+        return false;
   });
 });
