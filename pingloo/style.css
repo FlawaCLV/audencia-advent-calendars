@@ -29,7 +29,7 @@ h1{
   width: 900px;
   height: 450px;
   background: url('Igloo.png') center no-repeat;
-  background-size: auto 100%;
+  background-size: 100% 100%;
 }
 
 .jour {
@@ -42,23 +42,35 @@ h1{
   font-size: 30px;
   font-weight: bold;
   text-decoration: none;
-  background-color: white;
-  color: red;
+  background-color: transparent;
+  background: url('flocon.png') center no-repeat;
+  background-size: auto 55%;
+  color: transparent;;
   font-family: "Lobster";
+}
+
+.jour-j {
+  background: url('flocon doré.png') center no-repeat;
+  background-size: auto 55%;
+  color: #DBA901
+}
+
+.jour-passe {
+color: #013ADF
 }
 
 #j1 {
   top: 100px;
-  left: 350px;
+  left: 360px;
 }
 
 #j2 {
-  top: 290px;
-  left: 530px;
+  top: 340px;
+  left: 45px;
 }
 
 #j3 {
-  top: 0px;
+  top: 10px;
   left: 590px;
 }
 
@@ -67,13 +79,13 @@ h1{
   left: 100px;
 }
 #j5 {
-  top: 165px;
-  left: 700px;
+  top: 220px;
+  left: 490px;
 }
 
 #j6 {
   top: 340px;
-  left: 20px;
+  left: -15px;
 }
 
 #j7 {
@@ -82,13 +94,13 @@ h1{
 }
 
 #j8 {
-  top: 290px;
-  left: 810px;
+  top: 340px;
+  left: 200px;
 }
 
 #j9 {
-  top: 200px;
-  left: 580px;
+  top: 220px;
+  left: 295px;
 }
 
 #j10 {
@@ -112,8 +124,8 @@ h1{
 }
 
 #j14 {
-  top: 290px;
-  left: 620px;
+  top: 340px;
+  left: 290px;
 }
 
 #j15 {
@@ -128,12 +140,12 @@ h1{
 
 #j17 {
   top: 340px;
-  left: 150px;
+  left: 120px;
 }
 
 #j18 {
   top: 220px;
-  left: 450px;
+  left: 400px;
 }
 
 #j19 {
@@ -148,20 +160,20 @@ h1{
 
 #j21 {
   top: 340px;
-  left: 350px;
+  left: 400px;
 }
 
 #j22 {
   top: 0px;
-  left: 340px;
+  left: 330px;
 }
 
 #j23 {
   top: 220px;
-  left: 260px;
+  left: 215px;
 }
 
 #j24 {
-  top: 290px;
-  left: 720px;
+  top: 300px;
+  left: 715px;
 }
