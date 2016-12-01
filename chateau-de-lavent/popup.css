@@ -1,0 +1,150 @@
+.popup-jour {
+  display: none;
+}
+#popup {
+  position: fixed;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow-y: hidden;
+  transition: overflow-y .1s ease 1s;
+}
+#popup.active {
+  z-index: 100;
+  overflow-y: scroll;
+}
+#popup.active #popup-content {
+  opacity: 1;
+  transform: translateY(0);
+  transition: transform .6s ease .3s, opacity .3s ease .3s;
+}
+#popup.active #popup-backdrop {
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+  transition: opacity .3s ease;
+}
+
+#popup-content {
+  position: relative;
+  z-index: 100;
+  margin: 40px auto;
+  max-width: 800px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,.25);
+  transform: translateY(108px);
+  opacity: 0;
+  overflow: hidden;
+  transition: transform .3s ease, opacity .3s ease;
+}
+
+#popup-close {
+  position: absolute;
+  top: 6px;
+  right: 12px;
+  font-size: 24px;
+  color: rgba(0,0,0,.75);
+  cursor: pointer;
+}
+
+#popup-content .popup-cover {
+  height: 360px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.popup-text {
+  position: relative;
+  padding: 40px 40px 40px 40px;
+  line-height: 1.5;
+  font-size: 14px;
+  color: rgba(0,0,0,.72);
+}
+
+.popup-text h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 36px;
+}
+
+.popup-text h2 {
+  margin: 0;
+  padding: 0;
+  font-size: 24px;
+  text-transform: uppercase;
+  color: rgba(0,0,0,.24);
+}
+
+.poppup-text p {
+  margin: 0 0 24px 0;
+}
+
+.popup-text iframe {
+  width: 100%;
+  height: 360px;
+}
+
+.popup-text img {
+  width: 100%;
+  height: auto;
+}
+
+.popup-text blockquote {
+  position: relative;
+  margin: 12px 0;
+  padding: 0 12px 0 36px;
+  font-size: 18px;
+  font-style: italic;
+  color: rgba(0,0,0,.24);
+}
+.popup-text blockquote::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 6px;
+  height: 100%;
+  background-color: rgba(0,0,0,.24);
+}
+.popup-text blockquote strong {
+  font-style: normal;
+  color: rgba(0,0,0,.36);
+}
+
+.popup-text .popup-social-networks {
+  position: absolute;
+  top: 50px;
+  left: 35px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.popup-text .popup-social-networks li a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 0 12px 0;
+  width: 30px;
+  height: 30px;
+  text-decoration: none;
+  border: 1px solid rgba(0,0,0,.24);
+  border-radius: 50%;
+  color: rgba(0,0,0,.24);
+}
+
+#popup-backdrop {
+  position: fixed;
+  z-index: 90;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 0;
+  background-color: rgba(0,0,0,.5);
+  opacity: 0;
+  transition: opacity .3s ease .3s;
+}

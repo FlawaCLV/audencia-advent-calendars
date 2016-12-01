@@ -1,15 +1,21 @@
 body {
   color:black;
   font-family: 'Pacifico', cursive;
-  font-size: 30px;
+  font-size: 50px;
   position: center bottom;
 }
 
+
 #titre {
+  position: absolute;
   color: rgb(255,103,95);
-  text-align: right ;
+  text-align: right;
   padding-right: 80px;
   z-index: 14;
+  font-size: 60px;
+  margin: 0;
+  top: 120px;
+  left: 20px;
 }
 
 #calendrier {
@@ -23,9 +29,9 @@ body {
 
 #chateau {
   position: relative;
-  width: 689px;
-  height: 357px;
-  background: url('Chateauavent.png') center center no-repeat;
+  width: 1300px;
+  height: 673px;
+  background: url('Chateau2.png') center center no-repeat;
   background-size: 100% 100%;
 }
 
@@ -34,10 +40,10 @@ body {
   align-items: center;
   justify-content: center;
   position: absolute;
-  left: 65px;
-  bottom: 125px;
-  width: 26px;
-  height: 34px;
+  left: 100px;
+  bottom: 190px;
+  width: 60px;
+  height: 70px;
   font-size: 15px;
   font-weight: 300;
   text-decoration: none;
@@ -50,15 +56,33 @@ body {
   background-image: url('Fenetrepasse.png');
   color: red;
 }
-.fenetre.jour-passe span {
-  display: none;
-}
+
 
 .fenetre.jour-j {
   background-image: url('FenetreJJ.png');
   color: gold;
 }
 
-#fenetre2 { left: 100px; }
-#fenetre3 { left: 135px; }
-#fenetre4 { left: 170px; }
+#fenetre2 { left: 180px; }
+#fenetre3 { left: 260px; }
+#fenetre4 { left: 340px; }
+#fenetre5 { left: 420px; }
+#fenetre6 { left: 680px; }
+#fenetre7 { left: 755px; }
+#fenetre8 { left: 830px; }
+#fenetre9 { left: 905px; }
+#fenetre10 { left: 980px; }
+#fenetre11 { left: 1055px; }
+#fenetre12 { left: 1130px; }
+#fenetre13 { left: 100px; bottom: 90px;}
+#fenetre14 { left: 180px; bottom: 90px;}
+#fenetre15 { left: 260px; bottom: 90px;}
+#fenetre16 { left: 340px; bottom: 90px;}
+#fenetre17 { left: 420px; bottom: 90px;}
+#fenetre18 { left: 680px; bottom: 90px;}
+#fenetre19 { left: 755px; bottom: 90px;}
+#fenetre20 { left: 830px; bottom: 90px;}
+#fenetre21 { left: 905px; bottom: 90px;}
+#fenetre22 { left: 980px; bottom: 90px;}
+#fenetre23 { left: 1055px; bottom: 90px;}
+#fenetre24 { left: 1130px; bottom: 90px;}
