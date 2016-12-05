@@ -9,11 +9,6 @@ $(document).ready(function() {
     $('#popup').addClass('active');
   });
 
-  $('.fenetre.jour-futur').on('click', function(e) {
-    e.stopPropagation();
-    return false;
-  });
-
   $('#popup-close, #popup-backdrop').on('click', function() {
     $('#popup').removeClass('active');
   });
