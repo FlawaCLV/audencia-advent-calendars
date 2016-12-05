@@ -1,4 +1,4 @@
-# audencia-advent-calendars
+# Audencia Advent Calendars
 Calendriers de l'Avent | Atelier code Audencia SciencesCom 2016
 
 [Chateau de l'Avent](http://mediafactory.audencia.com/ateliercode/groupe1/chateau-de-lavent)
