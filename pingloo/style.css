@@ -45,7 +45,7 @@ h1{
   background-color: transparent;
   background: url('flocon.png') center no-repeat;
   background-size: auto 55%;
-  color: transparent;;
+  color: transparent;
   font-family: "Lobster";
 }
 
@@ -66,7 +66,7 @@ color: #013ADF
 
 #j2 {
   top: 340px;
-  left: 45px;
+  left: 85px;
 }
 
 #j3 {
@@ -76,16 +76,16 @@ color: #013ADF
 
 #j4 {
   top: 220px;
-  left: 100px;
+  left: 150px;
 }
 #j5 {
   top: 220px;
-  left: 490px;
+  left: 485px;
 }
 
 #j6 {
   top: 340px;
-  left: -15px;
+  left: 25px;
 }
 
 #j7 {
@@ -95,22 +95,22 @@ color: #013ADF
 
 #j8 {
   top: 340px;
-  left: 200px;
+  left: 225px;
 }
 
 #j9 {
   top: 220px;
-  left: 295px;
+  left: 305px;
 }
 
 #j10 {
   top: 100px;
-  left: 630px;
+  left: 600px;
 }
 
 #j11 {
   top: 220px;
-  left: 15px;
+  left: 65px;
 }
 
 #j12 {
@@ -125,12 +125,12 @@ color: #013ADF
 
 #j14 {
   top: 340px;
-  left: 290px;
+  left: 300px;
 }
 
 #j15 {
   top: 100px;
-  left: 100px;
+  left: 135px;
 }
 
 #j16 {
@@ -140,7 +140,7 @@ color: #013ADF
 
 #j17 {
   top: 340px;
-  left: 120px;
+  left: 150px;
 }
 
 #j18 {
@@ -170,10 +170,10 @@ color: #013ADF
 
 #j23 {
   top: 220px;
-  left: 215px;
+  left: 235px;
 }
 
 #j24 {
   top: 300px;
-  left: 715px;
+  left: 675px;
 }
